@@ -20,4 +20,5 @@
 	o testSpeaker.c				-   Plays a melody using the notes defined in pitches.h
     
 Additional Notes:
+
 o	All .ino files are essentially .c files used by the Arduino IDE
