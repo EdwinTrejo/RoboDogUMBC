@@ -21,4 +21,4 @@
     
 Additional Notes:
 
-o	All .ino files are essentially .c files used by the Arduino IDE
+	o All .ino files are essentially .c files used by the Arduino IDE
