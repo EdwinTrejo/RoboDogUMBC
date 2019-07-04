@@ -22,3 +22,10 @@
 Additional Notes:
 
 	o All .ino files are essentially .c files used by the Arduino IDE
+
+
+Libraries needed:
+
+	o Arduino PID Library by Brett Beauregard
+
+	o Adafruit-PWM-Servo-Driver-Library
