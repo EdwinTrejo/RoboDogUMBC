@@ -29,3 +29,10 @@ Libraries needed:
 	o Arduino PID Library by Brett Beauregard
 
 	o Adafruit-PWM-Servo-Driver-Library
+	
+
+Software needed:
+
+	o https://www.arduino.cc/en/main/software
+
+	o https://git-scm.com/download/win
