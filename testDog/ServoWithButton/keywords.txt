@@ -1,0 +1,3 @@
+Leg	KEYWORD1
+moveBy	KEYWORD2
+detachAll	KEYWORD2
