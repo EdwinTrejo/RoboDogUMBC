@@ -1,0 +1,11 @@
+/home/edwin/Documents/p2p/server/bin/Debug/netcoreapp2.2/server.deps.json
+/home/edwin/Documents/p2p/server/bin/Debug/netcoreapp2.2/server.runtimeconfig.json
+/home/edwin/Documents/p2p/server/bin/Debug/netcoreapp2.2/server.runtimeconfig.dev.json
+/home/edwin/Documents/p2p/server/bin/Debug/netcoreapp2.2/server.dll
+/home/edwin/Documents/p2p/server/bin/Debug/netcoreapp2.2/server.pdb
+/home/edwin/Documents/p2p/server/obj/Debug/netcoreapp2.2/server.csprojAssemblyReference.cache
+/home/edwin/Documents/p2p/server/obj/Debug/netcoreapp2.2/server.csproj.CoreCompileInputs.cache
+/home/edwin/Documents/p2p/server/obj/Debug/netcoreapp2.2/server.AssemblyInfoInputs.cache
+/home/edwin/Documents/p2p/server/obj/Debug/netcoreapp2.2/server.AssemblyInfo.cs
+/home/edwin/Documents/p2p/server/obj/Debug/netcoreapp2.2/server.dll
+/home/edwin/Documents/p2p/server/obj/Debug/netcoreapp2.2/server.pdb

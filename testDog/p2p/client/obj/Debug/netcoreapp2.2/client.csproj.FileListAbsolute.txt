@@ -1,0 +1,11 @@
+/home/edwin/Documents/p2p/client/obj/Debug/netcoreapp2.2/client.csprojAssemblyReference.cache
+/home/edwin/Documents/p2p/client/obj/Debug/netcoreapp2.2/client.csproj.CoreCompileInputs.cache
+/home/edwin/Documents/p2p/client/obj/Debug/netcoreapp2.2/client.AssemblyInfoInputs.cache
+/home/edwin/Documents/p2p/client/obj/Debug/netcoreapp2.2/client.AssemblyInfo.cs
+/home/edwin/Documents/p2p/client/bin/Debug/netcoreapp2.2/client.deps.json
+/home/edwin/Documents/p2p/client/bin/Debug/netcoreapp2.2/client.runtimeconfig.json
+/home/edwin/Documents/p2p/client/bin/Debug/netcoreapp2.2/client.runtimeconfig.dev.json
+/home/edwin/Documents/p2p/client/bin/Debug/netcoreapp2.2/client.dll
+/home/edwin/Documents/p2p/client/bin/Debug/netcoreapp2.2/client.pdb
+/home/edwin/Documents/p2p/client/obj/Debug/netcoreapp2.2/client.dll
+/home/edwin/Documents/p2p/client/obj/Debug/netcoreapp2.2/client.pdb
