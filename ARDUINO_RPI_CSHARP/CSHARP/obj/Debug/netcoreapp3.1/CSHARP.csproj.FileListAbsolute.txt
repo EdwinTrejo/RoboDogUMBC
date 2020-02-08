@@ -11,3 +11,16 @@
 /home/horse/Documents/ARDUINO_RPI_CSHARP/CSHARP/obj/Debug/netcoreapp3.1/CSHARP.pdb
 /home/horse/Documents/ARDUINO_RPI_CSHARP/CSHARP/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
 /home/horse/Documents/ARDUINO_RPI_CSHARP/CSHARP/obj/Debug/netcoreapp3.1/CSHARP.csproj.CopyComplete
+c:\Users\horse\Documents\CODE\RoboDogUMBC\ARDUINO_RPI_CSHARP\CSHARP\bin\Debug\netcoreapp3.1\CSHARP.exe
+C:\Users\horse\Documents\CODE\RoboDogUMBC\ARDUINO_RPI_CSHARP\CSHARP\bin\Debug\netcoreapp3.1\CSHARP.deps.json
+C:\Users\horse\Documents\CODE\RoboDogUMBC\ARDUINO_RPI_CSHARP\CSHARP\bin\Debug\netcoreapp3.1\CSHARP.runtimeconfig.json
+C:\Users\horse\Documents\CODE\RoboDogUMBC\ARDUINO_RPI_CSHARP\CSHARP\bin\Debug\netcoreapp3.1\CSHARP.runtimeconfig.dev.json
+c:\Users\horse\Documents\CODE\RoboDogUMBC\ARDUINO_RPI_CSHARP\CSHARP\bin\Debug\netcoreapp3.1\CSHARP.dll
+c:\Users\horse\Documents\CODE\RoboDogUMBC\ARDUINO_RPI_CSHARP\CSHARP\bin\Debug\netcoreapp3.1\CSHARP.pdb
+c:\Users\horse\Documents\CODE\RoboDogUMBC\ARDUINO_RPI_CSHARP\CSHARP\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+c:\Users\horse\Documents\CODE\RoboDogUMBC\ARDUINO_RPI_CSHARP\CSHARP\obj\Debug\netcoreapp3.1\CSHARP.csprojAssemblyReference.cache
+c:\Users\horse\Documents\CODE\RoboDogUMBC\ARDUINO_RPI_CSHARP\CSHARP\obj\Debug\netcoreapp3.1\CSHARP.AssemblyInfoInputs.cache
+c:\Users\horse\Documents\CODE\RoboDogUMBC\ARDUINO_RPI_CSHARP\CSHARP\obj\Debug\netcoreapp3.1\CSHARP.AssemblyInfo.cs
+C:\Users\horse\Documents\CODE\RoboDogUMBC\ARDUINO_RPI_CSHARP\CSHARP\obj\Debug\netcoreapp3.1\CSHARP.csproj.CopyComplete
+c:\Users\horse\Documents\CODE\RoboDogUMBC\ARDUINO_RPI_CSHARP\CSHARP\obj\Debug\netcoreapp3.1\CSHARP.dll
+c:\Users\horse\Documents\CODE\RoboDogUMBC\ARDUINO_RPI_CSHARP\CSHARP\obj\Debug\netcoreapp3.1\CSHARP.pdb

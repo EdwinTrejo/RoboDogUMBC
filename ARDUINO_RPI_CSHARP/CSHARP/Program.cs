@@ -19,12 +19,13 @@ namespace CSHARP
             bool messageSendReady = false;
             Task.Run(() =>
             {
+                // actionID = 1;
                 //tasks here
                 while (true)
                 {
                     //gets a valid keycode and returns to regular program
                     var keyPress = Console.ReadKey().Key;
-                    //Console.Clear();
+                    // Console.Clear();
                     //move up
                     if (keyPress == ConsoleKey.W) { actionID = 1; messageSendReady = true; Console.WriteLine($"\n up {actionID}"); }
                     //move down
@@ -33,6 +34,15 @@ namespace CSHARP
                     else if (keyPress == ConsoleKey.A) { actionID = 3; messageSendReady = true; Console.WriteLine($"\n left {actionID}"); }
                     //move right
                     else if (keyPress == ConsoleKey.D) { actionID = 4; messageSendReady = true; Console.WriteLine($"\n right {actionID}"); }
+
+                    // if(actionID == 1) {
+                    //     actionID = 3;
+                    // } else {
+                    //     actionID = 1;
+                    // }
+                    // Console.WriteLine(actionID);
+                    // messageSendReady = true;
+                    // Thread.Sleep(500);
                 }
             });
             while (true)

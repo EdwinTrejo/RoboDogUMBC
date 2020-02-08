@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/home/horse/Documents/ARDUINO_RPI_CSHARP/CSHARP/CSHARP.csproj": {}
+    "C:\\Users\\horse\\Documents\\CODE\\RoboDogUMBC\\ARDUINO_RPI_CSHARP\\CSHARP\\CSHARP.csproj": {}
   },
   "projects": {
-    "/home/horse/Documents/ARDUINO_RPI_CSHARP/CSHARP/CSHARP.csproj": {
+    "C:\\Users\\horse\\Documents\\CODE\\RoboDogUMBC\\ARDUINO_RPI_CSHARP\\CSHARP\\CSHARP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/horse/Documents/ARDUINO_RPI_CSHARP/CSHARP/CSHARP.csproj",
+        "projectUniqueName": "C:\\Users\\horse\\Documents\\CODE\\RoboDogUMBC\\ARDUINO_RPI_CSHARP\\CSHARP\\CSHARP.csproj",
         "projectName": "CSHARP",
-        "projectPath": "/home/horse/Documents/ARDUINO_RPI_CSHARP/CSHARP/CSHARP.csproj",
-        "packagesPath": "/home/horse/.nuget/packages/",
-        "outputPath": "/home/horse/Documents/ARDUINO_RPI_CSHARP/CSHARP/obj/",
+        "projectPath": "C:\\Users\\horse\\Documents\\CODE\\RoboDogUMBC\\ARDUINO_RPI_CSHARP\\CSHARP\\CSHARP.csproj",
+        "packagesPath": "C:\\Users\\horse\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\horse\\Documents\\CODE\\RoboDogUMBC\\ARDUINO_RPI_CSHARP\\CSHARP\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/home/horse/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\horse\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -56,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

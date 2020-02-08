@@ -25,6 +25,7 @@
 
 void setup() {
   // initialize both serial ports:
+  Serial1.begin(9600);
   Serial.begin(9600);
   //pin 8 , 13
   //8 is lowest priority bit
@@ -43,10 +44,14 @@ void loop() {
   //}
 
   // read from port 0, send to port 1:
-  if (Serial.available()) {
-    int inByte = Serial.read();
+  
+  if (Serial1.available()) {
+    int inByte = Serial1.read();
     Serial.print("\ncharacter recieved: ");
     Serial.print(inByte, DEC);
+    
+    inByte = inByte - 48;
+    
     if (inByte == 1) {
       digitalWrite(13, LOW);
       digitalWrite(8, LOW);
@@ -57,14 +62,11 @@ void loop() {
     }
     else if (inByte == 3) {
       digitalWrite(13, HIGH);
-      digitalWrite(8, HIGH);
+      digitalWrite(8, LOW);
     }
     else if (inByte == 4) {
-      digitalWrite(13, LOW);
+      digitalWrite(13, HIGH);
       digitalWrite(8, HIGH);
     }
   }
 }
-
-
-
