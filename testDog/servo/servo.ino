@@ -36,14 +36,22 @@ Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
 #define USMIN  600 // This is the rounded 'minimum' microsecond length based on the minimum pulse of 150
 #define USMAX  2400 // This is the rounded 'maximum' microsecond length based on the maximum pulse of 600
 #define SERVO_FREQ 50 // Analog servos run at ~50 Hz updates
+#define NUM_MOTORS 16 //This is the amount of motors we have available
 
 // our servo # counter
 uint8_t servonum = 0;
+uint32_t currentPosition = 150;
+uint32_t* currentPositionOne = malloc(sizeof(uint32_t) * NUM_MOTORS);
 
 void setup() {
   Serial.begin(9600);
   Serial.println("8 channel Servo test!");
-
+  
+  //This initializes the current value
+  for(int i = 0; i < NUM_MOTORS; i++){
+    currentPositionOne[i] = 150;
+  }
+  
   pwm.begin();
   // In theory the internal oscillator is 25MHz but it really isn't
   // that precise. You can 'calibrate' by tweaking this number till
@@ -55,10 +63,26 @@ void setup() {
 }
 
 //can only go up to 180
-void setPWMDeg(uint8_t port, int deg){ 
+void setPWMDeg(uint8_t port, int deg){
   uint16_t actualRate = ((450/180) * (uint16_t)deg) + 149;
   actualRate = (actualRate < 150) ? 150 : actualRate;
-  pwm.setPWM(port, 0, actualRate);
+  if(currentPosition < actualRate){
+    for(int i = currentPositionOne[port]; currentPositionOne[port] <= actualRate; i++){
+      pwm.setPWM(port, 0, i);
+      Serial.println(i);
+      currentPositionOne[port] = i;
+      //delay(20);
+    }
+  }
+  if(currentPosition > actualRate){
+    for(int i = currentPositionOne[port]; currentPositionOne[port] >= actualRate; i--){
+      pwm.setPWM(port, 0, i);
+      Serial.println(i);
+      currentPositionOne[port] = i;
+      //delay(20);
+    }
+  }
+  //pwm.setPWM(port, 0, actualRate);
 }
 
 // You can use this function if you'd like to set the pulse length in seconds
@@ -80,22 +104,22 @@ void setPWMDeg(uint8_t port, int deg){
 void loop() {
   // Drive each servo one at a time using setPWM()
   //for (uint16_t pulselen = SERVOMIN; pulselen < SERVOMAX; pulselen++) {
+    delay(3000);
     setPWMDeg(0, 0);
     setPWMDeg(3, 0);
-    delay(1000);
-    //delay(1000);
-    //setPWMDeg(0, 30);
-    //setPWMDeg(3, 30);
-    //delay(1000);
-    //setPWMDeg(0, 90);
-    //setPWMDeg(3, 90);
-    //delay(1000);
-    //setPWMDeg(0, 150);
-    //setPWMDeg(3, 150);
-    //delay(1000);
+    delay(3000);
+    setPWMDeg(0, 30);
+    setPWMDeg(3, 30);
+    delay(3000);
+    setPWMDeg(0, 90);
+    setPWMDeg(3, 90);
+    delay(3000);
+    setPWMDeg(0, 150);
+    setPWMDeg(3, 150);
+    delay(3000);
     setPWMDeg(0, 174);
     setPWMDeg(3, 174);
-    delay(1000);
+    delay(3000);
 //    /Serial.println(pulselen);
   //}
 }
